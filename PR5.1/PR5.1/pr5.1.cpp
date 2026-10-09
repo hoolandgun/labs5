@@ -2,6 +2,8 @@
 #include <cmath>
 using namespace std;
 double g(const double a, const double b);
+
+#ifndef LINK_TEST
 int main()
 {
 	double s, t;
@@ -11,6 +13,8 @@ int main()
 cout << "c = " << c << endl;
 return 0;
 }
+#endif
+
 double g(const double a, const double b)
 {
 	return (a * a + a * b + b * b);
