@@ -1,0 +1,17 @@
+.vs
+Debug
+Release
+x64
+x86
+*.exe
+*.pdb
+*.ilk
+*.obj
+*.log
+*.tlog
+*.db
+*.ipch
+*.recipe
+*.vsidx
+*.suo
+*.json
