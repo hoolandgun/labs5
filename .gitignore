@@ -15,3 +15,5 @@ x86
 *.vsidx
 *.suo
 *.json
+*.vcxproj.user
+*.VC.opendb
